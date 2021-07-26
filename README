@@ -1,0 +1,17 @@
+package main
+
+import (
+"flag"
+"fmt"
+"os"
+
+"github.com/aliyun/aliyun-oss-go-sdk/oss"
+)
+
+var (
+endpint        = "oss-cn-chengdu.aliyuncs.com"
+ak             = "LTAI5tMvG5NA51eiH3ENZDaa"
+sk             = "vWOGbrPKQGmLVo4CKSgmAB62vdum10"
+bucketName     = "cloud-station"
+uploadFilePath = "go.mod"
+)
